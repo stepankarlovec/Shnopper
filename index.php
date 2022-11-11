@@ -11,6 +11,8 @@ function autoloadFunction(string $trida): void
 }
 spl_autoload_register("autoloadFunction");
 
+require('app/Initilazer.php');
+
 $mainController = new BaseController();
 $mainController->init();
 

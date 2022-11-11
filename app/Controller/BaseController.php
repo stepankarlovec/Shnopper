@@ -1,8 +1,7 @@
 <?php
 class BaseController{
     public function init(){
-        Utils::getConfig();
-        echo 'gay';
+        echo 'This is base controller speaking';
     }
     public function render(string $file){
         require($file);

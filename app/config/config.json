@@ -1,5 +1,10 @@
 {
-  "db": {
-    "user": "ahoj"
+  "database": {
+    "host": "127.0.0.1",
+    "dbname": "shnooper",
+    "user": "root",
+    "pass": "root",
+    "options": "obj,dev,emulateprepares",
+    "charset": "utf8mb4"
   }
 }
