@@ -41,7 +41,7 @@ class Utils
         $f = $d['options'];
         $d['options'] = [];
         if(str_contains($f, "obj")){
-            array_push($d['options'], PDO::FETCH_OBJ);
+            array_push($d['options'], [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ]);
         }
         if(str_contains($f, "dev")){
             array_push($d['options'],[PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
