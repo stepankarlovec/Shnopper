@@ -1,6 +1,6 @@
 <?php
 
-use Shnopper\DB;
+use Shnopper\Connector;
 
 class Manager{
 
@@ -9,9 +9,9 @@ class Manager{
     /**
      * Put every single class into dis contructor
      * Manager constructor.
-     * @param DB $db
+     * @param Connector $db
      */
-    public function __construct(DB $db,)
+    public function __construct(Connector $db,)
     {
         $this->db = $db;
     }

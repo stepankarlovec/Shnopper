@@ -1,6 +1,6 @@
 <?php
 
-class BaseModel extends Model {
+class UsersModel extends BaseModel{
     public static function logStrucutre(){
         self::getTableStructure();
     }

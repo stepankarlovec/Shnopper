@@ -1,7 +1,7 @@
 {
   "database": {
     "host": "127.0.0.1",
-    "dbname": "shnopper",
+    "dbname": "shnooper",
     "user": "root",
     "pass": "root",
     "options": "obj,dev,emulateprepares",

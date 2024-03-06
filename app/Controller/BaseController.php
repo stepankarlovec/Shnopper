@@ -2,15 +2,14 @@
 
 
 class BaseController{
-    public $mc;
-    public function __construct($mc)
+    public function __construct()
     {
-        $this->mc = $mc;
     }
-
     public function init(){
-        echo 'This is base controller speaking';
+        //echo 'This is base controller speaking';
         //var_dump($this->mc->db->table('users')->fetch());
+        //BaseModel::logStrucutre();
+        UsersModel::logStrucutre();
     }
     public function render(string $file){
         require($file);

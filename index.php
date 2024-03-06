@@ -13,7 +13,7 @@ spl_autoload_register("autoloadFunction");
 
 require('app/Initilazer.php');
 
-$mainController = new BaseController($mc);
+$mainController = new BaseController();
 $mainController->init();
 
 ?>
